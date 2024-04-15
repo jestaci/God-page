@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2 {
+    font-family: "Platypi", serif;
+}
+
+body, input, textarea {
+    font-family: "Roboto Slab", serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: black;
+    color: #fff;
+}
+
+header h1 {
+    font-weight: normal;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img {
+    height: 36px;
+}
+
+.brands-list li {
+    display: inline;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    color: black;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+section {
+    align-items: center;
+}
+
+.store-front {
+    width: 700px;
+    margin-right: 32px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: black;
+}
+
+input:focus textarea:focus {
+    outline-color: black;
+}
+
+.rede-social img {
+    height: 24px;
+}
+
+.rede-social li {
+    display: inline;
+    padding: 16px;
+}
+
+.rede-social li a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+}
